@@ -1,0 +1,177 @@
+/* Estilo general para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos barra de navegacion */
+
+nav {
+    background-color: rgb(111, 161, 34);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+}
+
+nav .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+nav h1 {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/* Estilos presentacion*/
+#about {
+    background-color:#002d08;
+    color: white;
+    padding: 50px 0;
+}
+
+#about .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid white
+}
+
+#about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+#about p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+/* Estilos seleccion Proyectos */
+#projects {
+    padding: 50px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#projects .container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#projects h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    padding: 5px;
+    color:#002d08;
+    border: 10px solid;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#projects .project {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#projects .project h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#projects .project img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    
+}
+
+#projects .project p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  30px;
+}
+
+#projects .project a {
+    color:#002d08;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Estilo seccion contactos*/
+#contact {
+    background-color:#002d08;
+    color: white;
+    padding: 50px 0;
+}
+
+#contact .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#contact p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#contact ul {
+   list-style:none; 
+   margin-top :10px; 
+   margin-bottom :10px; 
+   padding-left :0; 
+   text-align :left; 
+   line-height :1.5em; 
+   font-size :20px; 
+   font-weight :bold; 
+   color :white; 
+   font-family: 'Times New Roman', Times, serif; 
+}
