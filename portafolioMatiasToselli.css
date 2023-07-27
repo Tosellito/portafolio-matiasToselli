@@ -1,12 +1,9 @@
-/* Estilo general para todos los elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/* Estilos barra de navegacion */
 
 nav {
     background-color: rgb(111, 161, 34);
@@ -47,7 +44,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Estilos presentacion*/
 #about {
     background-color:#002d08;
     color: white;
@@ -85,7 +81,6 @@ nav ul li a {
     
 }
 
-/* Estilos seleccion Proyectos */
 #projects {
     padding: 50px 0;
     font-family: 'Times New Roman', Times, serif;
@@ -141,7 +136,6 @@ nav ul li a {
     font-size: 20px;
 }
 
-/* Estilo seccion contactos*/
 #contact {
     background-color:#002d08;
     color: white;
